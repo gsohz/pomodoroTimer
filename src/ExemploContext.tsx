@@ -11,7 +11,7 @@ function NewCycleForm() {
 
       <button
         onClick={() => {
-          setActiveCycle(state => state + 1);
+          setActiveCycle((state: number) => state + 1);
         }}
       >
         Aumentar
